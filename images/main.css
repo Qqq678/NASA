@@ -1,0 +1,464 @@
+body {
+    background-color: black;
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    background: url('starfield-banner.jpg');
+    width: 95%;
+}
+
+.header .logo-link {
+    padding: 10px;
+}
+
+.header .logo {
+    width:110px;
+    margin:11px;
+}
+
+.box1{
+    height: 100px;
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.box1 .logo img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px 100px 0 10px;
+}
+
+.box1 .nav1{
+    height: 60px;
+    width: 1000px;
+    float: left;
+}
+
+.box1 .nav1 a{
+    display: inline;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    border-right: 1px solid gray;
+    padding: 0 2px;
+}
+
+.box1 .nav1 .last{
+    border: none;
+}
+
+.box1 .search{
+    float: left;
+    height: 50px;
+    width: 330px;
+    background-color: gray;
+    margin: 10px 20px;
+}
+
+.box1 .search input{
+    height: 40px;
+    widows: 250px;
+    background-color: gray;
+    border: none;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.box1 .search img{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+.box1 .share img{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 20px 5px;
+}
+
+.box1 .nav2{
+    float: right;
+    height: 40px;
+    width: 1250px;
+    margin-right: 250px;
+    background-color: gray;
+}
+
+.box1 .nav2 a{
+    display: inline;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-right: 1px solid black;
+    padding: 0 2px;
+}
+
+.box1 .nav2 .last{
+    border: none;
+}
+
+.box2{
+    height: 800px;
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.box2 .a1{
+    float: left;
+    height: 800px;
+    width: 800px;
+    background-image: url('pia21924-16.jpg');
+    background-size: 100%;
+    margin-top: 10px;
+}
+
+.box2 .a1 .dawn{
+    float: left;
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 740px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box2 .a1 h1{
+    width: 800px;
+    height: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box2 .a2{
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-image: url('mollweide_cycle.jpg');
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 50px;  
+}
+
+.box2 .a2 .climate{
+    float: left;
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 340px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box2 .a2 h1{
+    width: 400px;
+    height: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box2 .a3{
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    margin-top: 10px;
+    margin-left: 50px; 
+}
+
+.box2 .a4{
+    float: left;
+    height: 350px;
+    width: 850px;
+    background-image: url('s69-39961.jpg');
+    background-size: 100%;
+    margin: 50px;
+}
+
+.box2 .a4 h1{
+    width: 400px;
+    height: 30px;
+    margin-top: 320px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box3{
+    height: 400px;
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.box3 .b1{
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-image: url('ssc2017-14a1.jpg');
+    background-size: 100%;
+    margin-top: 10px;
+}
+
+.box3 .b1 .day{
+    float: left;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 240px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box3 .b1 h1{
+    width: 300px;
+    height: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box3 .b2 {
+    float: left;
+    height: 300px;
+    width: 900px;
+    background-image: url('pia22556-16.gif');
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.box3 .b2 .as{
+    float: left;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 240px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box3 .b2 h1{
+    width: 900px;
+    height: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box3 .b3{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.box3 .b3 h1{
+    float: left;
+    width: 300px;
+    height: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box4{
+    height: 350px;
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.box4 .c1{
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-image: url('nasa_logo.png');
+    background-size: 100%;
+    margin-top: 10px;
+}
+
+.box4 .c1 .about{
+    float: left;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 230px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box4 .c1 h1{
+    width: 300px;
+    height: 30px;
+    margin: 0;
+    font-size: 20px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box4 .c2{
+    float: left;
+    height: 300px;
+    width: 400px;
+    background-image: url('io-home.gif');
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.box4 .c2 .juno{
+    float: left;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 230px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box4 .c2 h1{
+    width: 400px;
+    height: 30px;
+    margin: 0;
+    font-size: 19px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box4 .c3{
+    float: left;
+    height: 300px;
+    width: 450px;
+    background-image: url('cassini20170809.jpg');
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.box4 .c3 .cassini{
+    float: left;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 230px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box4 .c3 h1{
+    width: 450px;
+    height: 30px;
+    margin: 0;
+    font-size: 19px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box4 .c4{
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-image: url('fermiicecube_as.jpg');
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.box4 .c4 .fermi{
+    float: left;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box4 .c4 h1{
+    width: 300px;
+    height: 30px;
+    margin: 0;
+    font-size: 19px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+p{
+    height: 50px;
+    width: 1800px;
+    background-color: darkblue;
+    color: white;
+    font-size: 35px;
+    line-height: -10px;
+    text-align: center;
+    margin: 0;
+}
+
+.box5{
+    height: 300px;
+    width: 1800px;
+    margin: 0;
+}
+
+.box5 img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px 5px 0 10px;
+}
+
+.box5 h1{ 
+    height: 50px;
+    width: 500px;
+    float: left;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.box5 .nav3{
+    height: 50px;
+    width: 1000px;
+    float: left;
+    margin-top: 250px;
+}
+
+.box5 .nav3 a{
+    display: inline;
+    text-decoration: none;
+    font-size: 18px;
+    color: teal;
+    padding: 0 2px;
+    margin-left: 5px;
+}
