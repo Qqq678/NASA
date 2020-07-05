@@ -1,0 +1,21 @@
+<html>
+
+    <body>
+        <script>
+            function palindrome(message){
+                var a = message.length - 1;
+                var b = message.charAt(0);
+                var c = message.charAt(a);
+                console.log(a,b,c);
+                if(b == c){
+                    console.log(message+"yes");
+                }else{
+                    console.log(message+"no");
+                }
+            }
+            palindrome('hello');
+            palindrome('abcba');
+        </script>
+    </body>
+
+</html>

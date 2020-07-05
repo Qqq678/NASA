@@ -1,0 +1,24 @@
+<html>
+
+    <body>
+        <script>
+            function find(arr){
+                var obj ={};
+                var maxEle;
+                var maxNum = 1;
+                arr.join('').replace(/(\w)/g,function(word,p){
+                    obj[p[0]]?obj[p[0]] += 1:obj[p[0]] = 1;
+                    if(obj[p[0]] > maxNum){
+                        maxEle = p[0];
+                        maxNum++;
+                    }
+                });
+                return 'cishu zui duo de yuan su wei:'+maxEle+',ci shu wei:'+obj[maxEle];
+            }
+
+            var a = [3,'a','a','a',2,3,'a',3,'a',2,4,9,3]
+            console.log(find(a));
+        </script>
+    </body>
+
+</html>
